@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Devisnovik Landing</title>
+</head>
+
+<body class="devisnovik-page">
+  <header class="main-header">
+    <button type="button" class="main-header__mobile-menu-button main-header__mobile-menu-button-closed"><span
+        class="visually-hidden">Мобильное меню</span></button>
+
+    <nav class="main-header__main-menu main-menu">
+      <ul class="main-menu__list">
+        <li class="main-menu__item"><a href="#" class="main-menu__link main-menu__link--active">Home</a></li>
+        <li class="main-menu__item"><a href="#" class="main-menu__link">About me</a></li>
+        <li class="main-menu__item"><a href="#" class="main-menu__link">Skills</a></li>
+        <li class="main-menu__item"><a href="#" class="main-menu__link">Portfolio</a></li>
+        <li class="main-menu__item"><a href="#" class="main-menu__link">Contacts</a></li>
+      </ul>
+    </nav>
+
+    <div class="main-header__site-language site-language">
+      <button type="button" class="site-language__button site-language__button">RU</button>
+      <span class="site-language__separate-line">|</span>
+      <button type="button" class="site-language__button site-language__button--active">ENG</button>
+    </div>
+  </header>
+
+  <h1 class="devisnovik-page__title">Denis Novik</h1>
+
+  <main class="main-content">
+    <section class="me container">
+      <h2 class="me__title vissualy-hidden">Me</h2>
+      <p class="me__bio-text">UX | UI designer<br />
+        24 years old, Minsk</p>
+
+      <img src="img/denis-photo.jpg" alt="Me." class="me__my-photo">
+    </section>
+
+    <section class="about-me">
+      <div class="about-me__container container">
+        <h2 class="about-me__title">About me</h2>
+        <p class="about-me__text">Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design and everything
+          connected with it.</p>
+
+        <p class="about-me__text">I'm studying at courses
+          "Web and mobile design interfaces"
+          in IT-Academy.</p>
+
+        <p class="about-me__text">Ready to implement excellent projects with wonderful people.</p>
+      </div>
+    </section>
+
+    <section class="skills container">
+      <h2 class="skills__title">Skills</h2>
+      <p class="Skills__text">I work in such programs as</p>
+
+      <ul class="skills__list">
+        <li class="skills_item skill skill--ps">
+          <img src="img/PS.png" alt="PhotoShop." class="skill-image" />
+          <h3 class="skill__title">Adobe Photoshop</h3>
+          <div class="skill__level"></div>
+        </li>
+
+        <li class="skills_item skill skill--ai">
+          <img src="img/AI.png" alt="Adobe Illustrator." class="skill-image" />
+          <h3 class="skill__title">Adobe Illustrator</h3>
+          <div class="skill__level"></div>
+        </li>
+
+        <li class="skills_item skill skill--ae">
+          <img src="img/AE.png" alt="Adobe After Effects." class="skill-image" />
+          <h3 class="skill__title">Adobe After Effects</h3>
+          <div class="skill__level"></div>
+        </li>
+
+        <li class="skills_item skill skill--figma">
+          <img src="img/Figma.png" alt="Figma" class="skill-image" />
+          <h3 class="skill__title">Figma</h3>
+          <div class="skill__level"></div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="portfolio">
+      <div class="portfolio__container container">
+        <h2 class="portfolio__title">Portfolio</h2>
+
+        <ul class="portfolio__list">
+          <li class="portfolio__item portfolio-case">
+            <img src="img/fashion-store.jpg" alt="" class="portfolio-case__image" aria-hidden="true">
+            <h3 class="portfolio-case__title">Online fashion store - Homepage</h3>
+          </li>
+
+          <li class="portfolio__item portfolio-case">
+            <img src="img/reebok_web.jpg" alt="" class="portfolio-case__image" aria-hidden="true">
+            <h3 class="portfolio-case__title">Reebok Store - Concept</h3>
+          </li>
+
+          <li class="portfolio__item portfolio-case">
+            <img src="img/reebok_web-1.jpg" alt="" class="portfolio-case__image" aria-hidden="true">
+            <h3 class="portfolio-case__title">Braun Landing Page - Concept</h3>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="main-footer container">
+    <h2 class="main-footer__title">Contacts</h2>
+
+    <p class="main-footer__text">Want to know more or just chat?
+      You are welcome!</p>
+
+    <button type="button" class="main-footer__message">Send message</button>
+
+    <ul class="main-footer__social-media-list social-media">
+      <li class="social-media__item social-media__item--linkedln"><span class="visually-hidden">linkedln</span></li>
+      <li class="social-media__item social-media__item--instagram"><span class="visually-hidden">instagram</span></li>
+      <li class="social-media__item social-media__item--behance"><span class="visually-hidden">behance</span></li>
+      <li class="social-media__item social-media__item--pinterest"><span class="visually-hidden">pinterest</span></li>
+    </ul>
+
+    <p class="main-footer__call-to-action-text">Like me on
+      LinkedIn, Instagram, Behance, Dribble</p>
+  </footer>
+
+  <script src="js/bundle.js"></script>
+</body>
+
+</html>

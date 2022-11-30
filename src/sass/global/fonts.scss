@@ -1,0 +1,17 @@
+@font-face {
+  // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом)
+  font-family: "Gilroy", sans-serif;
+  // адрес шрифта и тип
+  src: url("../../public/fonts/Gilroy-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом)
+  font-family: "Gilroy", sans-serif;
+  // адрес шрифта и тип
+  src: url("../../public/fonts/Gilroy-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 600;
+}
