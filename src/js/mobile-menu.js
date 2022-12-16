@@ -1,22 +1,20 @@
 // Sandwich menu
-const mainNavSandwich = document.querySelector('.main-header__toggle');
-const mainNav = document.querySelector('.dashboard-header-container');
+const mainNavSandwich = document.querySelector('.main-header__mobile-menu-button');
+const mainNav = document.querySelector('.main-menu');
 
 export const MobileMenu = () => {
   if (mainNavSandwich) {
     mainNavSandwich.addEventListener('click', () => {
-      if (mainNav.classList.contains('dashboard-header-container--closed')) {
-        mainNavSandwich.classList.remove('main-header__toggle--closed');
-        mainNavSandwich.classList.add('main-header__toggle--opened');
+      if (!mainNav.classList.contains('main-menu--opened')) {
+        mainNavSandwich.classList.remove('main-header__mobile-menu-button--closed-animation');
+        mainNavSandwich.classList.add('main-header__mobile-menu-button--opened');
 
-        mainNav.classList.remove('dashboard-header-container--closed');
-        mainNav.classList.add('dashboard-header-container--opened');
+        mainNav.classList.add('main-menu--opened');
       } else {
-        mainNavSandwich.classList.remove('main-header__toggle--opened');
-        mainNavSandwich.classList.add('main-header__toggle--closed');
+        mainNavSandwich.classList.remove('main-header__mobile-menu-button--opened');
+        mainNavSandwich.classList.add('main-header__mobile-menu-button--closed-animation');
 
-        mainNav.classList.remove('dashboard-header-container--opened');
-        mainNav.classList.add('dashboard-header-container--closed');
+        mainNav.classList.remove('main-menu--opened');
       }
     });
   }

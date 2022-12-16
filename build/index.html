@@ -10,16 +10,29 @@
 
 <body class="devisnovik-page">
   <header class="main-header">
-    <button type="button" class="main-header__mobile-menu-button"><span class="visually-hidden">Мобильное
-        меню</span></button>
+    <input id="page-nav-toggle" class="main-navigation-toggle" type="checkbox" />
+    <label for="page-nav-toggle">
+      <svg class="icon--menu-toggle" viewBox="0 0 60 30">
+        <g class="icon-group">
+          <g class="icon--menu">
+            <path d="M 6 0 L 54 0" />
+            <path d="M 6 15 L 54 15" />
+            <path d="M 6 30 L 54 30" />
+          </g>
+          <g class="icon--close">
+            <path d="M 15 0 L 45 30" />
+            <path d="M 15 30 L 45 0" />
+          </g>
+        </g>
+      </svg>
+    </label>
 
-    <nav class="main-header__main-menu main-menu">
-      <ul class="main-menu__list">
-        <li class="main-menu__item"><a href="#" class="main-menu__link main-menu__link--active">Home</a></li>
-        <li class="main-menu__item"><a href="#" class="main-menu__link">About me</a></li>
-        <li class="main-menu__item"><a href="#" class="main-menu__link">Skills</a></li>
-        <li class="main-menu__item"><a href="#" class="main-menu__link">Portfolio</a></li>
-        <li class="main-menu__item"><a href="#" class="main-menu__link">Contacts</a></li>
+    <nav class="main-navigation">
+      <ul class="main-navigation__list">
+        <li class="main-navigation__item"><a class="main-navigation__link" href="#0">Home</a></li>
+        <li class="main-navigation__item"><a class="main-navigation__link" href="#0">About</a></li>
+        <li class="main-navigation__item"><a class="main-navigation__link" href="#0">Contact</a></li>
+        <li class="main-navigation__item"><a class="main-navigation__link" href="#0">Dance</a></li>
       </ul>
     </nav>
 
@@ -129,7 +142,7 @@
       LinkedIn, Instagram, Behance, Dribble</p>
   </footer>
 
-  <script src="bundle.js"></script>
+  <script src="js/bundle.js"></script>
 </body>
 
 </html>
