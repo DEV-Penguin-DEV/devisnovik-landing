@@ -2,8 +2,15 @@
 @import "global/fonts.scss";
 @import "global/variables.scss";
 @import "global/impurities.scss";
+@import "global/container.scss";
+@import "global/title.scss";
 @import "global/page.scss";
 
 @import "blocks/main-header.scss";
 @import "blocks/main-menu.scss";
 @import "blocks/site-language.scss";
+@import "blocks/me.scss";
+@import "blocks/about-me.scss";
+@import "blocks/skills.scss";
+@import "blocks/skill.scss";
+@import "blocks/portfolio.scss";

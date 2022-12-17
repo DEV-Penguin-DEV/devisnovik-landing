@@ -1,0 +1,55 @@
+.skill {
+  &:not(:last-child) {
+    margin-bottom: 81px;
+  }
+}
+
+.skill-image {
+  margin-bottom: 25px;
+}
+
+.skill__title {
+  font-family: "Gilroy-Bold";
+  font-size: 14px;
+  line-height: 17px;
+  width: min-content;
+  margin: 0 auto;
+
+  color: #828282;
+  margin-bottom: 40px;
+}
+
+.skill__level {
+  width: 166px;
+  height: 26px;
+  background: url("../../public/img/stars--gray.svg") no-repeat center center;
+  margin: 0 auto;
+  position: relative;
+  z-index: 0;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    height: 100%;
+    background: url("../../public/img/stars--black.svg") left center;
+  }
+
+  &--ps::before {
+    width: 80%;
+  }
+
+  &--ai::before {
+    width: 60%;
+  }
+
+  &--ae::before {
+    width: 80%;
+  }
+
+  &--figma::before {
+    width: 80%;
+  }
+}

@@ -5,11 +5,18 @@
 body {
   min-height: 100%;
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Gilroy-Medium", sans-serif;
   font-style: normal;
   font-weight: 500;
   background-color: #ffffff;
   color: #000000;
   display: grid;
   grid-template-rows: min-content 1fr min-content;
+}
+
+.devisnovik-page__title {
+  font-size: 47px;
+  line-height: 58px;
+  margin-bottom: 23px;
+  padding: 0 20px;
 }
