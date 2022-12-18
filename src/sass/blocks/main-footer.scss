@@ -1,0 +1,55 @@
+.main-footer {
+  padding: 82px 0 110px 0;
+  text-align: center;
+
+  @media (min-width: $desktop-width) {
+    padding: 114px 0 112px 0;
+  }
+}
+
+.main-footer__title {
+  @include margin-bottom(27px);
+}
+
+.main-footer__text {
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #090909;
+  @include margin-bottom(40px);
+
+  @media (min-width: $desktop-width) {
+    max-width: 275px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+}
+
+.main-footer__message {
+  @include button-none();
+  background: #000000;
+  border-radius: 50px;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #ffffff;
+  display: block;
+  width: 316px;
+  padding: 12px 0;
+  margin: 0 auto;
+  margin-bottom: 48px;
+
+  @media (min-width: $desktop-width) {
+    width: 180px;
+    margin-bottom: 85px;
+  }
+}
+
+.main-footer__call-to-action-text {
+  margin: 0;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #828282;
+}

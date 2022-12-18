@@ -2,8 +2,14 @@
   position: absolute;
   transform: rotate(90deg);
   width: max-content;
-  bottom: 150px;
+  bottom: -250px;
   right: -20px;
+
+  @media (min-width: $desktop-width) {
+    bottom: -120px;
+    transform: rotate(-90deg);
+    right: -43px;
+  }
 }
 
 .site-language__button {
@@ -18,6 +24,11 @@
   &--active {
     color: $active-link-color;
   }
+
+  @media (min-width: $desktop-width) {
+    font-size: 16px;
+    line-height: 20px;
+  }
 }
 
 .site-language__separate-line {
@@ -25,4 +36,9 @@
   color: $active-link-color;
   font-size: 34px;
   line-height: 42px;
+
+  @media (min-width: $desktop-width) {
+    font-size: 16px;
+    line-height: 20px;
+  }
 }

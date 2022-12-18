@@ -17,6 +17,5 @@ body {
 .devisnovik-page__title {
   font-size: 47px;
   line-height: 58px;
-  margin-bottom: 23px;
-  padding: 0 20px;
+  @include margin-bottom(23px);
 }

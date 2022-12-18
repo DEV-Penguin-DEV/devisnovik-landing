@@ -2,6 +2,14 @@
   &:not(:last-child) {
     margin-bottom: 81px;
   }
+
+  @media (min-width: $desktop-width) {
+    min-width: 166px;
+
+    &:not(:last-child) {
+      margin-bottom: 0;
+    }
+  }
 }
 
 .skill-image {
@@ -17,6 +25,10 @@
 
   color: #828282;
   margin-bottom: 40px;
+
+  &--ae {
+    width: fit-content;
+  }
 }
 
 .skill__level {

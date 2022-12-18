@@ -1,0 +1,21 @@
+.portfolio {
+  padding: 81px 0;
+  background: #f6f6f6;
+  background-color: #f6f6f6;
+
+  @media (min-width: $desktop-width) {
+    padding: 113px 0 96px 0;
+  }
+}
+
+.portfolio__title {
+  @include margin-bottom(65px);
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 47px;
+  }
+}
+
+.portfolio__list {
+  @include list-none();
+}

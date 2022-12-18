@@ -1,0 +1,13 @@
+.social-media {
+  @include list-none();
+  margin: 0 auto;
+  margin-bottom: 48px;
+  display: flex;
+  width: 316px;
+  justify-content: space-between;
+
+  @media (min-width: $desktop-width) {
+    width: 342px;
+  }
+}
+

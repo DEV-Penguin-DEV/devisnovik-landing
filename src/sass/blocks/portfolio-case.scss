@@ -1,0 +1,26 @@
+.portfolio-case {
+  &:not(:last-child) {
+    margin-bottom: 78px;
+
+    @media (min-width: $desktop-width) {
+      margin-bottom: 99px;
+    }
+  }
+}
+
+.portfolio-case__image {
+  @include margin-bottom(33px);
+  display: block;
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 44px;
+  }
+}
+
+.portfolio-case__title {
+  margin: 0;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+}

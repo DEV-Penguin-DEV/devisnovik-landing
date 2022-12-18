@@ -1,5 +1,9 @@
 .me {
   padding-bottom: 83px;
+
+  @media (min-width: $desktop-width) {
+    padding-bottom: 104px;
+  }
 }
 
 .me__bio-text {
@@ -7,4 +11,15 @@
   line-height: 22px;
   color: $main-text-color;
   margin-bottom: 36px;
+
+  @media (min-width: $desktop-width) {
+    margin-left: 300px;
+  }
+}
+
+.me__desktop-container {
+  @media (min-width: $desktop-width) {
+    display: flex;
+    align-items: flex-end;
+  }
 }
